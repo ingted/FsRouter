@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ServerGarbageCollection>true</ServerGarbageCollection>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="FsRouter.fs" />
+    <Compile Include="Routers.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="hopac" Version="0.4.1" />
+  </ItemGroup>
+
+</Project>
